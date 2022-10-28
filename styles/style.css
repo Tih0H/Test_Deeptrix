@@ -67,7 +67,7 @@ button {
 }
 .menu_icon{
   width: 355px;
-  margin: auto;
+  margin: 0px auto 20px;
 }
 .menu_scroll {
   margin: 20px 10px;
@@ -95,7 +95,7 @@ button {
   width: 90%;
   border-color: #D7D8D9;
 }
-.cards_container{
+.container{
   width: 340px;
   display: block;
   margin: 0 auto;
@@ -126,4 +126,33 @@ button {
 }
 .card_buy{
   display: flex;
+}
+footer{
+  border-top: 1px solid #99A2AD;
+  margin-top: 10px;
+}
+.footer_menu{
+  display: flex;
+  justify-content: space-around;
+  /* margin: 10px 0; */
+  padding: 10px 0;
+}
+.footer_menu button{
+  background-color: #fff;
+  padding: 0;
+  cursor: pointer;
+}
+.svg_grey{
+  fill: #99A2AD;
+}
+.svg_grey:hover {
+  fill: #2975CC;
+}
+.hr_black{
+  margin: 0 auto 8px;
+  width: 131px;
+  height: 5px;
+  background: #000000;
+  border-radius: 4px;
+  border: 1px solid #000;
 }
