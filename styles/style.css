@@ -3,6 +3,7 @@
 body {
   width: 375px;
   border: 1px solid red;
+  margin: 0;
 }
 p{
   margin: 0;
@@ -38,7 +39,7 @@ button {
   background: rgba(0, 0, 0, 0.4);
   color: white;
 }
-.nav_menu_lbtn svg{
+.yellow_coins{
   fill: #F2C94C;
 }
 
@@ -70,6 +71,7 @@ button {
 }
 .menu_scroll {
   margin: 20px 10px;
+  overflow: hidden;
   /* display: flex;
   align-items: flex-start;
   gap: 10px; */
@@ -92,4 +94,36 @@ button {
 .separator{
   width: 90%;
   border-color: #D7D8D9;
+}
+.cards_container{
+  width: 340px;
+  display: block;
+  margin: 0 auto;
+}
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.card img{
+  border: 2px solid rgb(242, 242, 242);
+  padding: 7px;
+  border-radius: 20px;
+}
+.card_description{
+  margin: 4px 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+}
+.card_price{
+  margin-left: 8px;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: -0.078px;
+  color: #818C99;
+}
+.card_buy{
+  display: flex;
 }
