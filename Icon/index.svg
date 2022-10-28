@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="752pt" height="752pt" version="1.1" viewBox="0 0 752 752" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <clipPath id="b">
+   <path d="m139.21 468h73.789v68h-73.789z"/>
+  </clipPath>
+  <clipPath id="a">
+   <path d="m539 216h73.793v320h-73.793z"/>
+  </clipPath>
+ </defs>
+ <g clip-path="url(#b)">
+  <path d="m139.21 468.96h73.668v66.652h-73.668z" fill-rule="evenodd"/>
+ </g>
+ <path d="m237.43 405.82h77.176v129.8h-77.176z" fill-rule="evenodd"/>
+ <path d="m339.17 342.68h73.668v192.94h-73.668z" fill-rule="evenodd"/>
+ <path d="m437.39 279.53h77.176v256.09h-77.176z" fill-rule="evenodd"/>
+ <g clip-path="url(#a)">
+  <path d="m539.12 216.39h73.668v319.23h-73.668z" fill-rule="evenodd"/>
+ </g>
+</svg>
